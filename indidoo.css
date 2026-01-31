@@ -801,6 +801,107 @@
         }
 
         @media (max-width: 480px) {
+    /* Typography */
+    h1 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    h2, .section-title {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    p, .section-description, .testimonial-text {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 60px 20px;
+        min-height: auto; /* Let height adjust */
+    }
+
+    .hero-badge {
+        font-size: 12px;
+        padding: 4px 12px;
+    }
+
+    .availability-badge {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 12px 24px;
+        font-size: 14px;
+        width: 100%; /* Full-width buttons on mobile */
+        margin-bottom: 10px;
+    }
+
+    /* Services Section */
+    .services-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .service-card {
+        width: 100%;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .service-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .service-card h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    /* Stats Section */
+    .stats-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 20px;
+    }
+
+    .stat-card {
+        padding: 16px;
+        text-align: center;
+    }
+
+    /* Testimonials Section */
+    .testimonial-card {
+        padding: 20px 16px;
+    }
+
+    /* Contact Section */
+    .contact-info,
+    .contact-form {
+        padding: 20px 16px;
+    }
+
+    .contact-item {
+        flex-direction: column !important;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    /* Footer (if any) */
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
             /* Typography */
             h1 {
                 font-size: 32px;
@@ -816,73 +917,90 @@
 
             .section-description {
                 font-size: 16px;
-            }
+            }@media (max-width: 480px) {
+    /* Typography */
+    h1 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
 
-            /* Hero */
-            .hero {
-                padding-top: 80px;
-                min-height: 90vh;
-            }
+    .hero p,
+    .section-description,
+    .testimonial-text {
+        font-size: 14px;
+        line-height: 1.5;
+    }
 
-            .hero-badge {
-                font-size: 13px;
-                padding: 6px 16px;
-            }
+    .section-title {
+        font-size: 24px;
+    }
 
-            .availability-badge {
-                font-size: 14px;
-                padding: 10px 20px;
-            }
+    /* Hero */
+    .hero {
+        padding: 60px 20px;
+        min-height: auto; /* Let it shrink to fit content */
+    }
 
-            /* Services */
-            .service-card {
-                padding: 24px;
-            }
+    .hero-badge {
+        font-size: 12px;
+        padding: 4px 12px;
+    }
 
-            .service-icon {
-                width: 60px;
-                height: 60px;
-                font-size: 28px;
-            }
+    .availability-badge {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
 
-            .service-card h3 {
-                font-size: 20px;
-            }
+    /* Services */
+    .service-card {
+        padding: 16px;
+        width: 100%; /* Full width */
+        margin-bottom: 20px; /* Space between cards */
+    }
 
-            /* Stats */
-            .stats-grid {
-                grid-template-columns: 1fr;
-            }
+    .service-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
 
-            .stat-card {
-                padding: 20px;
-                text-align: center;
-            }
+    .service-card h3 {
+        font-size: 18px;
+    }
 
-            /* Testimonials */
-            .testimonial-card {
-                padding: 30px 24px;
-            }
+    /* Stats */
+    .stats-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 20px;
+    }
 
-            .testimonial-text {
-                font-size: 16px;
-            }
+    .stat-card {
+        padding: 16px;
+        text-align: center;
+    }
 
-            /* Contact */
-            .contact-info,
-            .contact-form {
-                padding: 30px 20px;
-            }
+    /* Testimonials */
+    .testimonial-card {
+        padding: 20px 16px;
+    }
 
-            .contact-item {
-                flex-direction: column;
-                text-align: center;
-                align-items: center;
-            }
+    /* Contact */
+    .contact-info,
+    .contact-form {
+        padding: 20px 16px;
+    }
 
-            /* Buttons */
-            .btn {
-                padding: 16px 32px;
-                font-size: 15px;
-            }
-        }
+    .contact-item {
+        flex-direction: column !important;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 12px 24px;
+        font-size: 14px;
+        width: 100%; /* Full width buttons on mobile */
+    }
+}
